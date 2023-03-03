@@ -14,3 +14,5 @@ class Manager extends Employee {
     return "Manager";
   }
 }
+
+export default Manager;
