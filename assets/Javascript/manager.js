@@ -1,14 +1,13 @@
 import Employee from "./employee.js";
-import managerInfo from "./Prompts/managerPrompt";
+// import managerInfo from "./Prompts/managerPrompt";
 
 class Manager extends Employee {
   constructor(name, id, email, officeNumber) {
-    this.officeNumber = officeNumber;
-
     super(name, id, email);
     this.name = name;
     this.id = id;
     this.email = email;
+    this.officeNumber = officeNumber;
   }
 
   getRole() {
@@ -36,4 +35,6 @@ async function createManager(manager) {
 
 export { Manager, createManager };
 
-console.log(Manager);
+const manager = new Manager("John Smith", 123, "john.smith@example.com", 1001);
+
+console.log(manager);
