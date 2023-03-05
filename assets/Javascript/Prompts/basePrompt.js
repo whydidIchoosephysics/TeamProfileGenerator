@@ -24,6 +24,6 @@ let managerInfo = [
 let answers = await inquirer.prompt(managerInfo);
 
 // async function x() {
-//     let res = await inquirer.prompt(arrObj);
-//     generateREADME(res);
-//   }
+//   let res = await inquirer.prompt(arrObj);
+//   generateREADME(res);
+// }

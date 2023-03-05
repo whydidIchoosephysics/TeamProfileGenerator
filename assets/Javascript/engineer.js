@@ -18,3 +18,5 @@ class Engineer extends Employee {
 }
 
 export default Engineer;
+
+async function createEngineer() {}
