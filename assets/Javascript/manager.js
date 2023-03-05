@@ -1,4 +1,5 @@
 import Employee from "./employee.js";
+import managerInfo from "./Prompts/managerPrompt";
 
 class Manager extends Employee {
   constructor(name, id, email, officeNumber) {

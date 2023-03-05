@@ -1,4 +1,4 @@
-let managerInfo = [
+const managerInfo = [
   {
     type: "input",
     message: "What is the team manager's Name?",
@@ -27,3 +27,5 @@ let answers = await inquirer.prompt(managerInfo);
 //   let res = await inquirer.prompt(arrObj);
 //   generateREADME(res);
 // }
+
+export default managerInfo;
